@@ -1,13 +1,13 @@
 {
-  "name": "chatapp",
+  "name": "dashcamapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web interface for the dashcam running on raspberry pi zero w",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --delay 3 -e js,pug,css app.js",
+    "start": "nodemon --delay 3 -e js,pug,css app.js",    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Nilesh Kinge",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.1.3",

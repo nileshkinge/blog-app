@@ -1,6 +1,15 @@
 var posts = [
     {
         id: '1',
+        title: 'Settings',
+        category: 'Spring',
+        header: 'Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.'
+    }
+];
+
+var posts1 = [
+    {
+        id: '1',
         title: 'Free Chat',
         category: 'Spring',
         header: 'Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.'

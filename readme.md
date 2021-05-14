@@ -1,2 +1,2 @@
-# Blog App
-## Node app to serve blog articles based on material ui templates
+# Dashcam App
+## Node app to to serve as na web interface for dashcam

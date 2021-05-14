@@ -1,3 +1,13 @@
+/************/
+.logs > .info,
+.settings > .info{
+  padding: 70px 15px 30px;
+}
+.info-lg{
+  max-width: 900px;
+}
+
+/************/
 .tim-row {
   margin-bottom: 20px;
 }

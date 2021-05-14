@@ -7,8 +7,8 @@ head
   title #{title}
   meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport')
   // Fonts and icons
-  link(rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons')
-  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css')
+  link(rel='stylesheet' type='text/css' href='/css/css.css')
+  link(rel='stylesheet' href='/css/fontawesome.min.css')
   // CSS Files
   link(href='/css/material-kit.css?v=2.0.5' rel='stylesheet')
   // CSS Just for demo purpose, don't include it in your project
@@ -28,24 +28,31 @@ body(class=`${bodyClass} sidebar-collapse`)
             .collapse.navbar-collapse
                 ul.navbar-nav.ml-auto
                     li.nav-item
-                        a.nav-link(href='/about_us', target="_blank")
-                            i.material-icons info
-                            |  About us
-                    li.dropdown.nav-item
-                        a.dropdown-toggle.nav-link(href='#' data-toggle='dropdown')
-                            i.material-icons apps
-                            |  Menu
-                        .dropdown-menu.dropdown-with-icons
-                            a.dropdown-item(href='/privacy')
-                                i.material-icons layers
-                                |  Privacy Policy
-                            a.dropdown-item(href='/contact')
-                                i.material-icons mail_outline
-                                |  Contact us
+                        a.nav-link(href='/')
+                            i.material-icons videocam
+                            |  Preview
+                    //- li.dropdown.nav-item
+                    //-     a.dropdown-toggle.nav-link(href='#' data-toggle='dropdown')
+                    //-         i.material-icons apps
+                    //-         |  Menu
+                    //-     .dropdown-menu.dropdown-with-icons
+                    //-         a.dropdown-item(href='/privacy')
+                    //-             i.material-icons layers
+                    //-             |  Privacy Policy
+                    //-         a.dropdown-item(href='/contact')
+                    //-             i.material-icons article 
+                    //-             |  Logs
                     li.nav-item
-                        a.nav-link(href='https://github.com/geekyjaat', target="_blank")
+                        a.nav-link(href='/settings')
+                            i.material-icons settings 
+                            |  Settings
+                    li.nav-item
+                        a.nav-link(href='/logs')
+                            i.material-icons article
+                            |  Logs
+                    li.nav-item
+                        a.nav-link(href='https://github.com/nileshkinge/Raspi_DashCam', target="_blank")
                             i.fa.fa-github
-                            |  Projects
                     li.nav-item
                         a.nav-link(rel='tooltip' title='' data-placement='bottom' href='https://twitter.com/guliavikram' target='_blank' data-original-title='Follow us on Twitter')
                             i.fa.fa-twitter
@@ -59,7 +66,7 @@ body(class=`${bodyClass} sidebar-collapse`)
                 ul
                     li
                         a(href='/')
-                            | The Technical Journal
+                            | Road trips
                     li
                         a(href='/about_us')
                             | About Us
@@ -74,7 +81,7 @@ body(class=`${bodyClass} sidebar-collapse`)
                 script.
                     document.write(new Date().getFullYear())
                 | 
-                a(href='/') The Technical Journal
+                a(href='/') Dash Cam
     
 script(src="/js/core/popper.min.js")
 script(src="/jquery.min.js")
